@@ -3,8 +3,8 @@ name = "simple-mcp-server-remote"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 dependencies = [
+    "aiosqlite>=0.21.0",
     "fastmcp>=2.12.4",
-    "aiosqlite">=0.21.0"
 ]
